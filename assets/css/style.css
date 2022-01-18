@@ -1,0 +1,119 @@
+:root{
+    --col1:rgb(38, 62, 97);
+    --col2:rgb(44, 146, 172);
+    --col3:rgb(44, 146, 172, 0.7);
+    --col4:rgb(241, 123, 232);
+
+}
+
+h1{
+    background-color: var(--col2);
+    color:var(--col1);
+    font-family:sans-serif;
+    padding-right:55px;
+    padding-left:55px;
+    font-size:250%;
+    width:350px;
+    
+
+
+}
+
+
+.top{
+    background-color: var(--col1);
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+body{
+    font-size:25px;
+    background-color:var(--col2);
+    display:block;
+
+}
+
+.name{
+    display:block;
+}
+
+.avatar{
+    width:350px;
+    height:350px;
+}
+
+.piet{
+    width:1000px;
+    height:1000px;
+}
+
+.other{
+    width:500px;
+    height:500px;
+}
+
+
+.links{
+    
+    padding-right:5px;
+    padding-left:55px;
+    display: flex;
+    justify-content: flex-end;
+    font-size:175%;
+
+}
+
+.links a{
+
+    color:var(--col2);
+    font-family:sans-serif;
+    margin: 5px;
+
+
+}
+
+.section{
+    display:flex;
+    margin-top:35px;
+    color:var(--col1);
+    background-color:var(--col2);
+    
+}
+
+.margin{
+    display:flex;
+    flex:0 0 20%;
+}
+
+
+
+#work a{
+    text-decoration:none;
+    position:relative;
+   
+    
+}
+
+.projName{
+    position:relative;
+    bottom:150px;
+    left:30px;
+    background-color:var(--col3);
+    color:var(--col4);
+    width:300px;
+}
+#work{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .top, .links, .section, #work {
+      flex-direction: column;
+    }
+  
+    
+  }
