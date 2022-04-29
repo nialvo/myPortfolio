@@ -1,9 +1,15 @@
 :root{
     --col1:rgb(38, 62, 97);
     --col2:rgb(44, 146, 172);
-    --col3:rgb(44, 146, 172, 0.7);
-    --col4:rgb(241, 123, 232);
+    --col3:rgba(10, 58, 70, 0.7);
+    --col4:rgb(238, 210, 236);
+    --col5:rgb(182, 238, 239);
 
+}
+
+a{
+    text-decoration: none;
+    color:var(--col5);
 }
 
 h1{
@@ -96,7 +102,7 @@ img{
 }
 .content{
     padding-left:20px;
-    font-size:25px;
+    font-size:30px;
 }
 
 .card1{
@@ -174,16 +180,12 @@ img{
     .top, .links {
       flex-direction: column;
     }
-    .card1, .piet{
+    .card1, .piet, .card, .other{
         width:620px;
         height:620px;
 
     }
-    .card, .other{
-        width:300px;
-        height:300px;
-
-    }
+    
   
     
 }
@@ -200,18 +202,15 @@ img{
     .top, .links {
       flex-direction: column;
     }
-    .card1, .piet{
+    .card1, .piet, .card, .other{
         width:520px;
         height:520px;
 
     }
-    .card, .other{
-        width:250px;
-        height:250px;
-
-    }
+  
+    
     .content{
-        font-size:20px;
+        font-size:30px;
     }
   
     
@@ -221,34 +220,26 @@ img{
     .top, .links {
       flex-direction: column;
     }
-    .card1, .piet{
+    .card1, .piet, .card, .other{
         width:420px;
         height:420px;
 
     }
-    .card, .other{
-        width:200px;
-        height:200px;
-
-    }
+    
   
     
 }
 
 @media screen and (max-width: 480px) {
     
-    .card1, .piet{
+    .card1, .piet, .card, .other{
         width:320px;
         height:320px;
 
     }
-    .card, .other{
-        width:150px;
-        height:150px;
-
-    }
+    
     .content{
-        font-size:15px;
+        font-size:25px;
     }
   
     
@@ -256,18 +247,14 @@ img{
 
 @media screen and (max-width: 380px) {
     
-    .card1, .piet{
+    .card1, .piet, .card, .other{
         width:220px;
         height:220px;
 
     }
-    .card, .other{
-        width:100px;
-        height:100px;
-
-    }
+   
     .content{
-        font-size:12px;
+        font-size:20px;
     }
   
     
